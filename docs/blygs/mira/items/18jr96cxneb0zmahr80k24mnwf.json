@@ -1,0 +1,29 @@
+{
+  "blyg": "0.4",
+  "id": "18jr96cxneb0zmahr80k24mnwf",
+  "kind": "fragment",
+  "origin": "https://fishbiscuit.github.io/reverse-angle/blygs/mira/",
+  "version": 1,
+  "created": "2026-11-22T22:21:40.705Z",
+  "updated": "2026-11-22T22:21:40.705Z",
+  "page": "f/18jr96cxneb0zmahr80k24mnwf/",
+  "content_md": "Opening night, from the audience\\.\n\n![Visitors face a hanging screen lit by a sea-green projection\\.](https://fishbiscuit.github.io/reverse-angle/blygs/mira/media/ef50437dcb315c2a2b2ff914c2d1a0838cf5c5d247cd6047b1c0ac51f0ba49a6.jpg)\n",
+  "content_html": "<p>Opening night, from the audience.</p>\n<p><img src=\"https://fishbiscuit.github.io/reverse-angle/blygs/mira/media/ef50437dcb315c2a2b2ff914c2d1a0838cf5c5d247cd6047b1c0ac51f0ba49a6.jpg\" alt=\"Visitors face a hanging screen lit by a sea-green projection.\"></p>\n",
+  "content_hash": "sha256:7e4888e54b474d1784b601877b5c533289d40db9687835341e29b8aff3d62676",
+  "media": [
+    {
+      "url": "media/ef50437dcb315c2a2b2ff914c2d1a0838cf5c5d247cd6047b1c0ac51f0ba49a6.jpg",
+      "mime": "image/jpeg",
+      "alt": "Visitors face a hanging screen lit by a sea-green projection."
+    }
+  ],
+  "author": {
+    "name": "Mira Tan"
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "at": "2026-11-22T22:21:40.705Z"
+    }
+  ]
+}

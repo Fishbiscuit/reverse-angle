@@ -1,0 +1,35 @@
+{
+  "blyg": "0.4",
+  "id": "5ckdhrmqjyb8nac7jqk4gbgsyd",
+  "kind": "thread",
+  "origin": "https://fishbiscuit.github.io/reverse-angle/blygs/jo/",
+  "version": 1,
+  "created": "2026-11-22T22:21:40.712Z",
+  "updated": "2026-11-22T22:21:40.712Z",
+  "page": "t/5ckdhrmqjyb8nac7jqk4gbgsyd/",
+  "content_md": "Opening night, from behind the screen\\.\n\n![A technician adjusts a cable behind the same green screen\\.](https://fishbiscuit.github.io/reverse-angle/blygs/jo/media/6e292a09bd6f20f9783caeeafbca1db1c09071feb157320ddf8506eaf7cbdbce.jpg)\n",
+  "content_html": "<p>Opening night, from behind the screen.</p>\n<p><img src=\"https://fishbiscuit.github.io/reverse-angle/blygs/jo/media/6e292a09bd6f20f9783caeeafbca1db1c09071feb157320ddf8506eaf7cbdbce.jpg\" alt=\"A technician adjusts a cable behind the same green screen.\"></p>\n",
+  "content_hash": "sha256:2b07c9274c0b53a39f6a8745b81bff5f927ea397ea5fd9135e2d9a127c77f9fb",
+  "media": [
+    {
+      "url": "media/6e292a09bd6f20f9783caeeafbca1db1c09071feb157320ddf8506eaf7cbdbce.jpg",
+      "mime": "image/jpeg",
+      "alt": "A technician adjusts a cable behind the same green screen."
+    }
+  ],
+  "author": {
+    "name": "Jo Lim"
+  },
+  "changelog": [
+    {
+      "version": 1,
+      "at": "2026-11-22T22:21:40.712Z"
+    }
+  ],
+  "stub_of": {
+    "origin": "https://fishbiscuit.github.io/reverse-angle/blygs/mira/",
+    "id": "18jr96cxneb0zmahr80k24mnwf",
+    "version": 1
+  },
+  "transclusions": []
+}

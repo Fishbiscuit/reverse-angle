@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f1e7">
+  <title>Reverse Angle · Both Sides of the Screen</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="mast">
+    <a class="brand" href="./"><span aria-hidden="true"></span>Reverse Angle</a>
+    <nav aria-label="Ways to see the scene">
+      <button id="sheet-tab" aria-pressed="true">Contact sheet</button>
+      <button id="room-tab" aria-pressed="false">Walk the room</button>
+    </nav>
+  </header>
+  <main>
+    <header class="intro">
+      <div>
+        <p class="eyebrow">A photo thread across two blogs</p>
+        <h1>Both sides of the screen.</h1>
+        <p class="lede">Two views of an imagined installation. Follow the reply to see what was behind it.</p>
+      </div>
+      <button type="button" class="primary" id="play" disabled>Watch the match cut <span aria-hidden="true">▶</span></button>
+    </header>
+    <p id="status" class="status" role="status" hidden></p>
+
+    <section id="sheet" aria-label="Contact sheet">
+      <div class="contact-grid" id="contacts"><p>Loading the two published photos…</p></div>
+      <details class="ingest" id="ingest" hidden>
+        <summary>Add a published photo reply</summary>
+        <p>Publish a photo reply to the original post from your own Blygger client. Paste its public link to try it at the behind-screen viewpoint in this session.</p>
+        <form id="reply-form">
+          <label for="reply-link">Public reply link</label>
+          <div class="inputs">
+            <input id="reply-link" type="url" placeholder="https://your-blog.example/…" required>
+            <button class="primary" type="submit">Open reply</button>
+          </div>
+          <p id="reply-status" role="status"></p>
+        </form>
+      </details>
+    </section>
+
+    <section id="walk" aria-labelledby="walk-heading" hidden>
+      <div class="room-grid">
+        <div id="room-stage" class="room-stage"><p>Loading the gallery…</p></div>
+        <aside class="room-notes">
+          <p class="eyebrow">Room study</p>
+          <h2 id="walk-heading">Where they stood</h2>
+          <div class="stops" aria-label="Camera positions">
+            <button id="front" aria-pressed="true">In the audience</button>
+            <button id="back" aria-pressed="false">Behind the screen</button>
+          </div>
+          <div id="viewpoint" aria-live="polite"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="player" id="player" aria-labelledby="player-title" hidden>
+      <div class="player-head">
+        <div><h2 id="player-title">Same screen, two views</h2><p id="player-caption" aria-live="polite"></p></div>
+        <button id="exit-cut">Back to contact sheet</button>
+      </div>
+      <div class="cut-photo" id="cut-photo"><img id="cut-image" alt=""><span id="match-mark" aria-hidden="true"></span></div>
+      <button class="primary" id="next-cut" hidden>See the reply</button>
+    </section>
+
+    <footer>
+      <span>Reverse Angle · Blygger developer launch</span>
+      <span id="demo-note" hidden>Generated photographs · Fictional publishers · Hand-built room</span>
+    </footer>
+  </main>
+  <template id="post-template">
+    <article class="post">
+      <div class="post-head">
+        <div><strong class="author"></strong><span class="origin"></span></div>
+        <span class="relation"></span>
+      </div>
+      <div class="shot"><img alt=""></div>
+      <p class="caption"></p>
+      <a class="source" rel="noopener noreferrer" target="_blank">Open original post <span aria-hidden="true">↗</span></a>
+    </article>
+  </template>
+</body>
+</html>
